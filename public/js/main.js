@@ -2,7 +2,7 @@ const output = document.querySelector('#output');
 const button = document.querySelector('#get-posts-btn');
 const form = document.querySelector('#add-post-form');
 
-// Get and show posts
+// Getting and show posts
 async function showPosts() {
   try {
     const res = await fetch('http://localhost:8000/api/posts');

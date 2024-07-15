@@ -7,7 +7,7 @@ import errorHandler from './middleware/error.js';
 import notFound from './middleware/notFound.js';
 const port = process.env.PORT || 8000;
 
-// Get the directory name
+// Get the directory names
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
